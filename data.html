@@ -1,0 +1,66 @@
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+        </button>
+       
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+
+         
+
+            <!-- Content Row -->
+
+            <div class="row">
+
+                <!-- Area Chart -->
+                <div class="col-xl-12 col-lg-12">
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div
+                            class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary"> DATA STORAGE CONVERTER</h6>
+                            
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body" >
+                              <br>
+                             <html>
+        <head>
+            <title>data srorage</title>
+        </head>
+        <body>
+            <form name="frm" id="frm" action="" method="post">
+           Enter Data Storage <input type="number" name="num" id="num" value="<?php echo $ans; ?>" required>
+           <select name="data" id="data">
+            <option value="select unit">SELECT UNIT</option>
+            <option value="BYTE" <?php echo $sel1; ?>>BYTE</option>
+            <option value="KB" <?php echo $sel2; ?>>KB</option>
+            <option value="MB" <?php echo $sel3; ?>>MB</option>
+            <option value="GB" <?php echo $sel4; ?>>GB</option>
+            <option value="TB" <?php echo $sel5; ?>>TB</option>
+           </select>
+           <input type="submit" name="DATA" id="DATA" value="CONVERT"><br><br>         
+            <?php echo $msg; ?>
+</form>
+        </body>
+    </html>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+
+         
+
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+    

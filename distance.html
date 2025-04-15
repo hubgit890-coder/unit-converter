@@ -1,0 +1,74 @@
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+
+         
+
+            <!-- Content Row -->
+
+            <div class="row">
+
+                <!-- Area Chart -->
+                <div class="col-xl-12 col-lg-12">
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div
+                            class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary"> DISTANCE CONVERTER</h6>
+                            
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body" >
+                               <br>
+                             <html>
+        <head>
+            <title>distance</title>
+        </head>
+        <body>
+            <form name="frm" id="frm" action="" method="post">
+                Enter Distance <input type="number" name="num" id="num" value="<?php echo $ans; ?>" required placeholder="enter disatnce here">
+                <select name="distance" id="distance" >
+                    <option value="select">select unit</option>
+                    <option   value="CM" <?php echo $sel1; ?>>CM</option>
+                    <option   value="MM" <?php echo $sel2; ?>>MM</option>
+                    <option   value="KM" <?php echo $sel3; ?>>KM</option>
+                    <option   value="FOOT" <?php echo $sel4; ?>>FOOT</option>
+                    <option value="INCH" <?php echo $sel5; ?>>INCH</option>
+                    <option value="MILE" <?php echo $sel6; ?>>MILE</option>
+                    <!-- <option value="MILE">MILE</option>
+                    <option value=""></option> -->
+                </select>
+                <input type="submit" name="btn" id="btn" value="Calculate">
+                </form>
+                <?php echo $msg; ?><br><br>
+                <?php echo $msg1; ?><br><br>
+                <?php echo $msg2; ?><br><br>
+                <?php echo $msg3; ?><br><br>
+                <?php echo $msg4; ?><br><br>
+                <?php echo $msg5; ?>
+        </body>
+    </html>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+
+         
+
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+    
